@@ -27,7 +27,7 @@ END_YEAR = 2026
 LAST_COMPLETE_QUARTER = "2026Q3"   # today is mid Nov 2026, so Q4 is incomplete
 
 # --- Google Earth Engine ----------------------------------------------------
-GEE_PROJECT = "your-gee-cloud-project-id"   # <-- edit
+GEE_PROJECT = "bengaluru-uhi-515013"   # <-- edit
 S2_COLLECTION = "COPERNICUS/S2_SR_HARMONIZED"
 CLOUDSCORE_COLLECTION = "GOOGLE/CLOUD_SCORE_PLUS/V1/S2_HARMONIZED"
 CLOUDSCORE_MIN = 0.6               # cs_cdf threshold; higher = stricter
