@@ -15,7 +15,7 @@ for p in (DATA_RAW, DATA_INTERIM, DATA_PROCESSED, OUTPUTS):
 # IMPORTANT: use ONE fixed boundary version for the whole panel. Ward
 # delimitations have changed (198 -> 243 wards, and the new Greater Bengaluru
 # Authority corporations), so never mix versions across years.
-WARDS_FILE = DATA_RAW / "wards.geojson"
+WARDS_FILE = DATA_RAW / "wards.kml"
 WARD_ID_COL = "ward_id"        # created in 01 if missing
 WARD_NAME_COL = "ward_name"    # rename to match your file's column
 CRS_GEO = "EPSG:4326"
